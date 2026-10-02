@@ -1,0 +1,3 @@
+[submodule "crossplay_upstream"]
+	path = crossplay_upstream
+	url = https://github.com/ma-r-s/crossplay

@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.CrossPlay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/eink_black</item>
+        <item name="colorOnPrimary">@color/eink_white</item>
+        <item name="colorSecondary">@color/eink_gray_dark</item>
+        <item name="android:statusBarColor">@color/eink_black</item>
+        <item name="android:navigationBarColor">@color/eink_black</item>
+        <item name="android:windowBackground">@color/eink_black</item>
+    </style>
+
+    <style name="Theme.CrossPlay.Fullscreen" parent="Theme.CrossPlay">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

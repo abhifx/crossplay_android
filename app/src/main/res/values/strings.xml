@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CrossPlay</string>
+    <string name="storage_permission_rationale">CrossPlay requires storage access to load EPUB books, Wikipedia articles, Anki flashcard decks, and save user progress.</string>
+    <string name="storage_permission_title">Storage Permission Required</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="open_epub">Open EPUB / Book</string>
+    <string name="open_anki">Import Anki Deck</string>
+    <string name="eink_mode">E-Ink Mode</string>
+    <string name="fast_mode">Fast Mode</string>
+</resources>

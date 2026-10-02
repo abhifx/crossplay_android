@@ -1,0 +1,14 @@
+# Android / Gradle / IDE
+.gradle/
+.kotlin/
+build/
+app/build/
+app/.cxx/
+inxpro/build/
+inxpro/.cxx/
+.idea/
+*.iml
+local.properties
+.DS_Store
+.artifacts/
+repomix-output.xml

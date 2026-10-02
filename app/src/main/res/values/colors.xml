@@ -1,0 +1,8 @@
+<resources>
+    <!-- E-ink High Contrast Color Palette -->
+    <color name="eink_black">#FF000000</color>
+    <color name="eink_white">#FFFFFFFF</color>
+    <color name="eink_gray_light">#FFE0E0E0</color>
+    <color name="eink_gray_dark">#FF333333</color>
+    <color name="accent_ink">#FF1A1A1A</color>
+</resources>
