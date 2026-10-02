@@ -173,11 +173,9 @@ void AndroidHalDisplay::renderToPixelArray(const uint8_t* bwBuf, uint32_t* outPi
                 bool bwWhite = (bwBuf[byteIdx] >> bitIdx) & 1;
                 uint8_t grayVal = m_grayBuffer[y * dispW + x];
 
-                uint8_t finalGray = 0;
-                if (!bwWhite) {
+                uint8_t finalGray = grayVal;
+                if (!bwWhite && grayVal == 255) {
                     finalGray = 0;
-                } else {
-                    finalGray = (grayVal == 0) ? 255 : grayVal;
                 }
                 if (inverted) {
                     finalGray = 255 - finalGray;
